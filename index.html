@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- Movie Name -->
+        <input type="text" id="movieTitle" placeholder="Search For Movie">
+        <!-- Search Button -->
+        <button onclick="fetchData()">Search</button>
+        <!-- Movie Details -->
+        <div id="movieDetails" class="movie-details" style="display: none;">
+            <h2 id="movieName"></h2>
+            <p id="releaseYear"></p>
+            <p id="genre"></p>
+            <img src="" alt="Movie Poster" id="MovieImage" style="display:none; width: 220px;">
+        </div>
+    </div>
+
+</body>
+</html>
